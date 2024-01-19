@@ -1,7 +1,7 @@
-number = int(input())
-digits = []
-for digit in str(number):
-    digits.append(int(digit))
-digits.sort()
-digits.reverse()
-print(*digits, sep='')
+# number = input()
+# number = list(number)
+# number.sort()
+# number.reverse()
+# number = ''.join(number)
+# print(number)
+print(''.join(reversed(sorted(list(input())))))
