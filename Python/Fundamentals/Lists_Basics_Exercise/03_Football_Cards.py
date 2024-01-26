@@ -1,6 +1,6 @@
 team_A = [f"A-{player}"for player in range(1, 11 + 1)]
 team_B = [f"B-{player}"for player in range(1, 11 + 1)]
-cards = input().split(' ')
+cards = input().split()
 is_terminated = False
 for card in cards:
     if card in team_A:

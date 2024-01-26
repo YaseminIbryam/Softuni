@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../PYTHON/kod/projects/.idea/projects.iml" filepath="$PROJECT_DIR$/../PYTHON/kod/projects/.idea/projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/softuni.iml" filepath="$PROJECT_DIR$/.idea/softuni.iml" />
     </modules>
   </component>
