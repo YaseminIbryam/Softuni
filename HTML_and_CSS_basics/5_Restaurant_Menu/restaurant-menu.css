@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    text-align: center;
+    color: #878e97;
+}
+.subtitle {
+    font-style: italic;
+    color: black;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
