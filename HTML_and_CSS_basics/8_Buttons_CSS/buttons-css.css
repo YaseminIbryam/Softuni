@@ -1,0 +1,27 @@
+* {
+    background-color: #eee;
+}
+button {
+    padding: 6px 14px;
+    border-radius: 15px;
+    border: 2px solid #333;
+    font-family:Helvetica, sans-serif;
+}
+.filled button{
+    background-color: #333;
+    color: white
+}
+.icon button {
+    background-color: #333;
+    color: white;
+}
+span {
+    background-color: transparent;
+    padding-right: 5px;
+}
+button:hover {
+    background-color: #006500;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #006500
+}

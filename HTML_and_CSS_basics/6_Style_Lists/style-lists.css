@@ -1,0 +1,13 @@
+h2 {
+    font-family: monospace;
+    background-color: #3b516b;
+    color: white;
+    text-decoration: underline;
+    padding: 15px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+
+}
+section {
+    background-color: #ededed;
+}
