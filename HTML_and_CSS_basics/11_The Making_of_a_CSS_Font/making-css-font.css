@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body {
+    background-color: #8b0000;
+}
+section {
+    text-align: center;
+    color: white;
+}
+h2 {
+    color: #debc7e;
+    text-transform: uppercase;
+}
+h1 {
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+p {
+    font-family: "Open sans", sans-serif;
+}
