@@ -1,0 +1,1 @@
+print(list(abs(number) for number in list(map(float, input().split()))))

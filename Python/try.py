@@ -1,8 +1,17 @@
-numbers = [2, 4, 6, 8, 10]
-result = [i for i in numbers if all(i % j != 0 for j in range(2, i))]
-print(result)
+def my_decorator(func):
+    def wrapper(*args, **kwargs):
+        print("Before calling function")
+        result = func(*args, **kwargs)
+        print("After calling function")
+        return result
 
-nums = [-1 ,  -2 ]
-for i in nums:
-    if i % 2 == 0:
-        print(i)
+    return wrapper
+
+
+@my_decorator
+def my_function(x):
+    return x * 2
+
+
+result = my_function(5)
+print(result)
