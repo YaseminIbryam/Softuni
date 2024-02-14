@@ -1,0 +1,1 @@
+print("\n".join([text for text in input().split() if len(text) % 2 == 0]))

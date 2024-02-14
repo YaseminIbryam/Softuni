@@ -1,0 +1,5 @@
+numbers = list(map(int, input().split(", ")))
+print("Positive:", ", ".join(list(map(str, list(filter(lambda x: x >= 0, numbers))))))
+print("Negative:", ", ".join(list(map(str, list(filter(lambda x: x < 0, numbers))))))
+print("Even:", ", ".join(list(map(str, list(filter(lambda x: x % 2 == 0, numbers))))))
+print("Odd:", ", ".join(list(map(str, list(filter(lambda x: x % 2 != 0, numbers))))))

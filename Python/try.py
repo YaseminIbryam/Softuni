@@ -1,17 +1,6 @@
-def my_decorator(func):
-    def wrapper(*args, **kwargs):
-        print("Before calling function")
-        result = func(*args, **kwargs)
-        print("After calling function")
-        return result
+from functools import reduce
 
-    return wrapper
-
-
-@my_decorator
-def my_function(x):
-    return x * 2
-
-
-result = my_function(5)
+numbers = [1, 2, 3, 4, 5]
+squared = map(lambda x: x**2, numbers)
+result = reduce(lambda x, y: x * y, squared)
 print(result)
