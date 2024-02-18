@@ -7,11 +7,11 @@ while True:
         break
     index = int(index)
     if index < 0:
-        value = sequence[index]
-        sequence[index] = sequence[-1]
+        value = sequence[0]
+        sequence[0] = sequence[-1]
     elif index >= len(sequence):
         value = sequence[-1]
-        sequence[-1] = sequence[index]
+        sequence[-1] = sequence[0]
     else:
         value = sequence.pop(index)
     removed_elements.append(value)
