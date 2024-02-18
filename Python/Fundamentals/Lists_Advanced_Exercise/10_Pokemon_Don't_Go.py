@@ -1,10 +1,7 @@
 sequence = list(map(int, input().split()))
 removed_elements = []
-while True:
+while sequence:
     index = input()
-    if index == '':
-        print(sum(removed_elements))
-        break
     index = int(index)
     if index < 0:
         value = sequence[0]
@@ -17,3 +14,4 @@ while True:
     removed_elements.append(value)
     sequence = [sequence[index] - value if sequence[index] > value
                 else sequence[index] + value for index in range(len(sequence))]
+print(sum(removed_elements))
