@@ -8,7 +8,7 @@ while True:
     command = command_list[0]
     index = int(command_list[1])
     if command == "Shoot":
-        if index >= len(sequence):
+        if index >= len(sequence) or index < 0:
             continue
         power = int(command_list[2])
         sequence[index] -= power
@@ -16,7 +16,7 @@ while True:
             sequence.pop(index)
             # shot
     elif command == "Add":
-        if index >= len(sequence):
+        if index >= len(sequence) or index < 0:
             print("Invalid placement!")
             continue
         value = int(command_list[2])
