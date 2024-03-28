@@ -50,7 +50,7 @@ while True:
         recharge(hero_name, int(command_list[2]))
     elif command == 'Heal':
         heal(hero_name, int(command_list[2]))
-for hero in heroes.keys():
+for hero, points in heroes.items():
     print(hero)
-    print(f'HP: {heroes[hero]['HP']}')
-    print(f'MP: {heroes[hero]['MP']}')
+    print(f"HP: {points['HP']}")
+    print(f"MP: {points['MP']}")
