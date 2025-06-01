@@ -1,2 +1,2 @@
 # Softuni
-Exerxises from course @Softuni
+Exercises from course @Softuni
